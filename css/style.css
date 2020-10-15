@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.table-title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 30px 0px;
+}
+/* ESTILOS COMUNES AMBAS SECCIONES */
+.element, .no-metals, .semi-metals{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+.element-symbol{
+    font-size: 18px;
+}
+.element-name{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+/* ESTILOS SECCION PRINCIPAL */
+.elements-principal{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+.element-column{
+    display: flex;
+    flex-direction: column;
+}
+.element-column-group{
+    font-size: 13px;
+    margin-left: 6px;
+}
+.period-number{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 11px 0px 10px 0px;
+    padding: 10px 0 10px 10px;
+    text-align: right;
+    font-size: 13px;
+}
+/* ESTILOS SECCION SECUNDARIA */
+.elements-secondary{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    margin: 0px 240px 0px auto;
+}
+.element-row{
+    display: flex;
+    flex-direction: row;
+}
+.element-row-name{
+    text-align: right;
+    padding: 10px 0px;
+}
+/* COLOR DE FONDO ELEMENTOS */
+.no-metals {
+    background-color: rgb(244, 128, 32);
+}
+.one>.element{
+    background-color: rgb(3, 41, 77);
+    color: rgb(255,255,255);
+}
+.two>.element{
+    background-color: rgb(252, 186, 18);
+}
+.transition-element, .four>.element, .five>.element, .six>.element, .seven>.element, .eight>.element, .nine>.element, .ten>.element, .eleven>.element, .twelve>.element{
+    background-color: rgb(27, 135, 205);
+    color: rgb(255,255,255);
+} 
+.thirteen>.element, .fourteen>.element, .fifteen>.element, .sixteen>.element{
+    background-color: rgb(120, 30, 119);
+    color: rgb(255,255,255);
+
+}
+.seventeen>.element{
+    background-color: rgb(161, 180, 38);
+}
+.eighteen>.element{
+    background-color: rgb(55, 136, 96);
+    color: rgb(255,255,255);
+}
+.semi-metals{
+    background-color: rgb(237, 24, 67);
+    color: rgb(255,255,255);
+}
+.row-one>.element, .lantanidos{
+    background-color: rgb(203, 211, 142);
+}
+.row-two>.element, .actinidos{
+    background-color: rgb(103, 164, 131);
+}
+/* ESTILOS LEYENDA */
+.leyenda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leyenda-text{
+    margin-right: 20px;
+}
+.color-box{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.box-one{
+    background-color: rgb(55, 136, 96);
+}
+.box-two{
+    background-color: rgb(161, 180, 38);
+}
+.box-three{
+    background-color: rgb(244, 128, 32);
+}
+.box-four{
+    background-color: rgb(237, 24, 67);
+}
+.box-five{
+    background-color: rgb(120, 30, 119);
+}
+.box-six{
+    background-color: rgb(27, 135, 205);
+}
+.box-seven{
+    background-color: rgb(252, 186, 18);
+}
+.box-eight{
+    background-color: rgb(3, 41, 77);
+}
+.box-nine{
+    background-color: rgb(203, 211, 142);
+}
+.box-ten{
+    background-color: rgb(103, 164, 131);
+}
